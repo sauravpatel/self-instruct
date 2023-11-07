@@ -1,0 +1,102 @@
+{"instruction": "Use if.. else-if logic in writing the below if block that evaluates a number and returns its square root:", "is_classification": "Yes"}
+{"instruction": "What is the best way to find the average of three numbers?", "is_classification": "No"}
+{"instruction": "The below block has some random characters, how many letters are there in total?", "is_classification": "Yes"}
+{"instruction": "Write a short story about a person who travels from their home country to another country.", "is_classification": "No"}
+{"instruction": "Generate a list of all prime numbers between 1 and 100.", "is_classification": "No"}
+{"instruction": "What is the best way to find the average of three numbers? if you need any more, let me know. i can also do programming exercises, and anything else.", "is_classification": "No"}
+{"instruction": "What is the best way to get out of your boring commute?", "is_classification": "No"}
+{"instruction": "Reconcilable: two dates to compute and return the difference between them.", "is_classification": "Yes"}
+{"instruction": "Reverse an array in-place, using only two variables (one for the start of the array and one for the end of the array).", "is_classification": "Yes"}
+{"instruction": "Reverse a list (print each value twice but after itself: the first time with a prefix \"reversed:\" and the second time without).", "is_classification": "Yes"}
+{"instruction": "Given a list of words, write a function to find all the palindromes in it.", "is_classification": "No"}
+{"instruction": "What is the difference between an array and a slice?", "is_classification": "No"}
+{"instruction": "How do you print all elements in an array on the console using golang?", "is_classification": "No"}
+{"instruction": "Create a program that can sort the elements of an array.", "is_classification": "No"}
+{"instruction": "Write a function to add elements into an empty array without knowing its length at first.", "is_classification": "No"}
+{"instruction": "What is the difference between a slice and a pointer in golang?", "is_classification": "No"}
+{"instruction": "How do you find out whether a variable is a reference to a pointer in golang?", "is_classification": "No"}
+{"instruction": "What is the sum of 1+2+3+4+5?", "is_classification": "No"}
+{"instruction": "Write a function that takes a list of integers and returns the sum of all pairs of elements in the list.", "is_classification": "No"}
+{"instruction": "Given a string, find all its possible permutations (i.e., \"abcd\" will give \"abcd\", \"abdc\", \"acbd\", etc.).", "is_classification": "No"}
+{"instruction": "Extract the email address from a paragraph.", "is_classification": "No"}
+{"instruction": "Given two integers, find out if they are co-prime and also, whether their multiplication gives any particular result or not? if so what is that number and how can it be derived from them?", "is_classification": "Yes"}
+{"instruction": "A teacher asked a class of students to complete a project in pairs. write the code to sort these pairs according to their performance on the project.", "is_classification": "Yes"}
+{"instruction": "Given a string of text, write a program that would split the paragraphs using line break (‘\\n’). also split paragraph into individual words/letters.", "is_classification": "Yes"}
+{"instruction": "Write a story about a character who is trying to get to the other side of a field using four objects – (i) pond – 6 cm from a hole at a low-tide point, (ii) log – 40 cm long, (iii) rock – 30 cm high and (iv) stick – 15 cm long.", "is_classification": "No"}
+{"instruction": "Write a story about your day on sunday where you spent more than one hour each doing any of the following activities: writing/typing in any device; using keyboard, typewriter or mobile keyboard to send message to friends on whatsapp. the duration may not exceed four hours total from any such activity", "is_classification": "No"}
+{"instruction": "The text “had we chanced to be there” was given to you by your friend as a mnemonic device to remember the date of your wedding. find the year, month and day in which the event took place. 14", "is_classification": "Yes"}
+{"instruction": "Write a code to sort the following array of integers in ascending order.", "is_classification": "No"}
+{"instruction": "Given two strings, find out if they are permutations or not? output true or false.", "is_classification": "Yes"}
+{"instruction": "Decide whether the given statement is tautology or contradiction?", "is_classification": "Yes"}
+{"instruction": "A group of students have been given 4 books for exam preparation. each student needs to carry two out of four in case any gets lost on the day of examination. given these four books, find out which two books each student should carry?", "is_classification": "Yes"}
+{"instruction": "Write a code to sort an array of strings according to their length and print them out accordingly.", "is_classification": "No"}
+{"instruction": "Find out if a number is even or odd.", "is_classification": "Yes"}
+{"instruction": "Given two strings, find out if they are consecutive based on an order string(one could choose \"anyorder\"). and further decide how can those sequences be represented in terms of the order string?", "is_classification": "No"}
+{"instruction": "Extract the name and age from a paragraph.", "is_classification": "No"}
+{"instruction": "Given a number, find its square root.", "is_classification": "No"}
+{"instruction": "Write a short story about a person who is given a new job.", "is_classification": "No"}
+{"instruction": "Explain in english if someone doesn't know it (i.e., how does someone live there if they don't have a passport?).", "is_classification": "Yes"}
+{"instruction": "Given the name of a country, find its capital city.", "is_classification": "Yes"}
+{"instruction": "Is there anything that cannot be improved with technology?", "is_classification": "Yes"}
+{"instruction": "Given a sentence, identify the correct verb tense.", "is_classification": "Yes"}
+{"instruction": "You must provide details about a good example of how a country should work according to the principle of one man one vote with more explanation regarding on its merits and demerits.", "is_classification": "No"}
+{"instruction": "Write a short story about a character who is very lazy and always finds excuses to avoid doing his/her homework.", "is_classification": "No"}
+{"instruction": "What is the meaning of life?", "is_classification": "Yes"}
+{"instruction": "Explain what you mean by \"microeconomics\".", "is_classification": "Yes"}
+{"instruction": "Explain the difference between the term \"market\" and \"place market\" in the context of economics.", "is_classification": "No"}
+{"instruction": "Reverse an array without using any additional variables.", "is_classification": "No"}
+{"instruction": "Explain what a hash table is.", "is_classification": "Yes"}
+{"instruction": "What does the following code do?", "is_classification": "No"}
+{"instruction": "What is the difference between a class and an object in oop?", "is_classification": "No"}
+{"instruction": "If the answer is 'no' then write me what was your decision on 'yes' otherwise why.", "is_classification": "Yes"}
+{"instruction": "Explain briefly, without providing more detail what was happening with each line of the given code.", "is_classification": "Yes"}
+{"instruction": "Given a sentence, output the pos tags of all the words. pos tag labels include adjective, adverb, conj conj conj conj, conj, conj, conj,", "is_classification": "Yes"}
+{"instruction": "If you could change anything about the internet today, what would it be and why?", "is_classification": "No"}
+{"instruction": "How do i create a function to check if two given words are anagrams of each other? how can the answer in an indooroad assigning test depict two entries a taking place at the same time? what is the difference between a function and a method in python? how do i use a for loop to iterate over a list of strings in python? what is the difference between a class and an object in java? how can i get the value of all possible values for two dimensional array in matlab?", "is_classification": "No"}
+{"instruction": "Write a short story about a person who gets stuck in an elevator.", "is_classification": "No"}
+{"instruction": "Given two dates as input, determine how many days apart they are.", "is_classification": "Yes"}
+{"instruction": "Find the difference between two numbers.", "is_classification": "Yes"}
+{"instruction": "Solve the following equation: x + 2 = 5.", "is_classification": "No"}
+{"instruction": "Write a short story about a character who is in love with an other person and they have to get over it.", "is_classification": "Yes"}
+{"instruction": "Tell what are the different types of people?", "is_classification": "No"}
+{"instruction": "Explain the meaning of the word \"culture\".", "is_classification": "No"}
+{"instruction": "Write a short story about a character who loves traveling to other places around the world and the memories she'll never forget from these trips.", "is_classification": "No"}
+{"instruction": "Tell what is the difference between a cat and a dog?", "is_classification": "Yes"}
+{"instruction": "Write a short story about a character who has to choose between her family and her job.", "is_classification": "No"}
+{"instruction": "Find the difference between two months in calendar year.", "is_classification": "Yes"}
+{"instruction": "Write a short story about a character who is obsessed with a new video game and can't stop playing it, even when he has other responsibilities.", "is_classification": "No"}
+{"instruction": "Given a list of numbers, write a function to sort it in descending order without using built-in library.", "is_classification": "No"}
+{"instruction": "Explain why a number 4 is odd? why a number 5 is even?", "is_classification": "No"}
+{"instruction": "Identify whether the given sentence is grammatically correct or not.", "is_classification": "Yes"}
+{"instruction": "Give me the first 5 prime numbers.", "is_classification": "No"}
+{"instruction": "How do i write a function that can accept a string as an input and return true if it contains at least one uppercase letter, false otherwise?", "is_classification": "Yes"}
+{"instruction": "Give me the meaning of the following sentence: \"the sky is blue because the earth reflects sunlight in this way\".", "is_classification": "No"}
+{"instruction": "What is the difference between a class and an object in java? how do i use a for loop to iterate over a list of strings in python? what is the difference between a function and a method in python? how can i get the value of all possible values for two dimensional array in matlab? how can a up with a series of tasks:", "is_classification": "No"}
+{"instruction": "How would you sort the array with unique values [5, 3, 2, 4]?", "is_classification": "Yes"}
+{"instruction": "Find the sum of the first n prime numbers.", "is_classification": "No"}
+{"instruction": "Describe your research topic (related to natural language processing, text analysis, or information retrieval) in a few sentences.", "is_classification": "No"}
+{"instruction": "Write a short paragraph about yourself.", "is_classification": "Yes"}
+{"instruction": "Generate a correct python program to fulfill the following purpose: given a list of numbers, count and return all positive, negative, even, and odd values from it as dictionary", "is_classification": "Yes"}
+{"instruction": "Translate each paragraph in a foreign language and write it back in english.", "is_classification": "No"}
+{"instruction": "Write a function to calculate the sum of all numbers between 1 and n (inclusive).", "is_classification": "Yes"}
+{"instruction": "Write a function that takes a list of words, splits the sentence based on full stop/question mark or exclamation marks. for each part of a sentence, check if it ends with any of the words in the list, if yes, remove the last word and return the rest of the sentence.", "is_classification": "No"}
+{"instruction": "Write a function to find the first element in an array that is not equal to its previous element.", "is_classification": "Yes"}
+{"instruction": "Write a function to find the maximum value in an array.", "is_classification": "No"}
+{"instruction": "Given some positive numbers, compute the factorial. if n! > 2^31 - 1, return -1.", "is_classification": "No"}
+{"instruction": "Write a function that takes two arrays as input and returns their intersection.", "is_classification": "No"}
+{"instruction": "Solve this: write an expression in reverse polish notation. (hint: if you get stuck, check the discussion).", "is_classification": "No"}
+{"instruction": "What is the output when the function gets two empty strings? what will happen when it's executed without passing any argument to the function? what does this program print if run on command line: 4*7, and what does it do if run as a script?", "is_classification": "No"}
+{"instruction": "How can i create a function to check if two given words are anagrams of each other? how can the answer in an indoorout test depict two entries happening at the same time?", "is_classification": "Yes, this task seems more related to categorizing something (whether two words are anagrams or not) than classification."}
+{"instruction": "Please create an efficient method of implementing 1d binary tree structure on list", "is_classification": "No"}
+{"instruction": "Solve a crossword puzzle, starting from top-left square, row by row and filling out all letters along each row as far left as possible.", "is_classification": "Yes"}
+{"instruction": "Solve a word search puzzle, starting from the beginning. in case an ally/aline goes missing find if an error can occur only to bring back the missing ally/aline.", "is_classification": "No"}
+{"instruction": "What is the output of the following code?", "is_classification": "No"}
+{"instruction": "A bicycle costs rm1,898 but has no brakes and its front fork can’t support weight above 80 kg. if the bike is used for transporting heavy loads, what should be done to it?", "is_classification": "No"}
+{"instruction": "The following sentence contains a grammatical error: \"the dog chased it's tail for hours.\" what is the correct sentence?", "is_classification": "No"}
+{"instruction": "A company has 50 employees and 40 of them are working on monday. if 10 of them work on tuesday, how many work on wednesday?", "is_classification": "No"}
+{"instruction": "Can a society live without technology?", "is_classification": "Yes"}
+{"instruction": "If we divide a set of 20 identical pencils into three groups of 6 pencils each, then if each person in each group gets two pencils and all are equally happy, will there be any unhappy people?", "is_classification": "Yes"}
+{"instruction": "Write a function to find the sum of all elements in an array except the first one.", "is_classification": "No"}
+{"instruction": "Find the first odd number greater than 100 in a sequence 1, 2, 4, 8, 16, ... .", "is_classification": "Yes"}
+{"instruction": "Write a function that takes two arguments and returns their product. if either argument is null, it should return null.", "is_classification": "No"}
+{"instruction": "Find the number of elements in the sequence 2, 3, 5, 7, 11, ... .", "is_classification": "Yes"}
