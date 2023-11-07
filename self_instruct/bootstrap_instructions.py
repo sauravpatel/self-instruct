@@ -10,7 +10,8 @@ import pandas as pd
 from multiprocessing import Pool
 from functools import partial
 from rouge_score import rouge_scorer
-from gpt3_api import make_requests as make_gpt3_requests
+#from gpt3_api import make_requests as make_gpt3_requests
+from llama2_api import make_requests as make_gpt3_requests
 
 
 random.seed(42)
@@ -170,6 +171,7 @@ if __name__ == "__main__":
                 random.shuffle(prompt_instructions)
                 prompt = encode_prompt(prompt_instructions, classification=args.use_clf_seed_tasks_only)
                 batch_inputs.append(prompt)
+                print (batch_inputs)
             results = make_gpt3_requests(
                 engine=args.engine,
                 prompts=batch_inputs,

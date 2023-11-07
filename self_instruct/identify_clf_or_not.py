@@ -6,8 +6,10 @@ import re
 import argparse
 import pandas as pd
 from collections import OrderedDict
-from gpt3_api import make_requests as make_gpt3_requests
-from templates.clf_task_template import template_1
+#from gpt3_api import make_requests as make_gpt3_requests
+from llama2_api import make_requests as make_gpt3_requests
+#from templates.clf_task_template import template_1
+from templates.clf_task_template_saurav import template_1
 
 
 random.seed(42)
@@ -86,18 +88,23 @@ if __name__ == '__main__':
     with open(output_path, "w") as fout:
         for batch_idx in range(0, len(lines), args.request_batch_size):
             batch = [json.loads(line) for line in lines[batch_idx: batch_idx + args.request_batch_size]]
-            if all(d["instruction"] in existing_requests for d in batch):
-                for d in batch:
+            #if all(d["instruction"] in existing_requests for d in batch):
+            unprocessed_batch = []
+            for d in batch:
+                if d['instruction'] in existing_requests:
                     data = existing_requests[d["instruction"]]
                     data = OrderedDict(
                         (k, data[k]) for k in \
                             ["instruction", "is_classification"]
                         )
                     fout.write(json.dumps(data, ensure_ascii=False) + "\n")
-            else:
+                else:
+                    unprocessed_batch.append(d)
+            if len(unprocessed_batch) > 0:#else:
                 # prefix = compose_prompt_prefix(human_written_tasks, batch[0]["instruction"], 8, 2)
                 prefix = templates[args.template]
-                prompts = [prefix + " " + d["instruction"].strip() + "\n" + "Is it classification?" for d in batch]
+                prompts = [prefix + " " + d["instruction"].strip() + "\n" + "Is it classification?\n" for d in unprocessed_batch]
+                print (f'Prompt for request batch size {args.request_batch_size} -- {unprocessed_batch[0]["instruction"]}')
                 results = make_gpt3_requests(
                     engine=args.engine,
                     prompts=prompts,
@@ -112,8 +119,8 @@ if __name__ == '__main__':
                     best_of=1,
                     api_key=args.api_key,
                     organization=args.organization)
-                for i in range(len(batch)):
-                    data = batch[i]
+                for i in range(len(unprocessed_batch)):
+                    data = unprocessed_batch[i]
                     if results[i]["response"] is not None:
                         data["is_classification"] = results[i]["response"]["choices"][0]["text"]
                     else:
@@ -122,9 +129,10 @@ if __name__ == '__main__':
                         "instruction": data["instruction"],
                         "is_classification": data["is_classification"]
                     }
+                    print (data)
                     data = OrderedDict(
                         (k, data[k]) for k in \
                             ["instruction", "is_classification"]
                         )
                     fout.write(json.dumps(data, ensure_ascii=False) + "\n")
-            progress_bar.update(len(batch))
+            progress_bar.update(len(unprocessed_batch))
